@@ -35,10 +35,12 @@ This code takes an Excel file from the openLCA Contribution Tree and generates a
 impact_name and unit_name: Customize the title of the Sankey diagram to reflect the impact being visualized (e.g., GWP for Global Warming Potential).
 
 ## Example Usage
+First, you need to generate an XLSX file from the "Contribution Tree" tool at openLCA. Save the file in the "REPO/sankey" folder.
+
 To use this project, modify the following variables in the script:
 
 * **file_path:** Path to the Excel file exported from openLCA.
-* **sheet_name:** The name of the sheet within the Excel file to be used.
+* **sheet_name:** The name of the sheet within the Excel file to be used. This normally does not need change.
 * **impact_name** and **unit_name:** These will define the title and units displayed on the Sankey diagram.
 
 After running the script, the Sankey diagram will be saved in an interactive HTML format, and a PNG image can be generated for further use.
