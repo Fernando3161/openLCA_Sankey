@@ -30,16 +30,16 @@ This code takes an Excel file from the openLCA Contribution Tree and generates a
 * **Output:** The diagram is saved as an interactive HTML file and a PNG image.
 
 ## Available Configuration Options
-* REMOVE_BACK_INFO:** When set to True, it removes background information, simplifying the flow representation.
-* SHORTEN_LABELS:** When enabled, labels are shortened to improve the diagram’s readability.
+* **REMOVE_BACK_INFO:** When set to True, it removes background information, simplifying the flow representation.
+* **SHORTEN_LABELS:** When enabled, labels are shortened to improve the diagram’s readability.
 impact_name and unit_name: Customize the title of the Sankey diagram to reflect the impact being visualized (e.g., GWP for Global Warming Potential).
 
 ## Example Usage
 To use this project, modify the following variables in the script:
 
-* file_path: Path to the Excel file exported from openLCA.
-* sheet_name: The name of the sheet within the Excel file to be used.
-* impact_name and unit_name: These will define the title and units displayed on the Sankey diagram.
+* **file_path:** Path to the Excel file exported from openLCA.
+* **sheet_name: The name of the sheet within the Excel file to be used.
+* **impact_name** and **unit_name:** These will define the title and units displayed on the Sankey diagram.
 
 After running the script, the Sankey diagram will be saved in an interactive HTML format, and a PNG image can be generated for further use.
 
