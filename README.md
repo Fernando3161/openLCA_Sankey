@@ -38,7 +38,7 @@ impact_name and unit_name: Customize the title of the Sankey diagram to reflect 
 To use this project, modify the following variables in the script:
 
 * **file_path:** Path to the Excel file exported from openLCA.
-* **sheet_name: The name of the sheet within the Excel file to be used.
+* **sheet_name:** The name of the sheet within the Excel file to be used.
 * **impact_name** and **unit_name:** These will define the title and units displayed on the Sankey diagram.
 
 After running the script, the Sankey diagram will be saved in an interactive HTML format, and a PNG image can be generated for further use.
